@@ -27,3 +27,6 @@ sam build
 ```
 sam local start-api
 ```
+
+More details:
+https://levelup.gitconnected.com/creating-an-aws-sam-cli-project-with-typescript-and-both-types-of-layers-dependencies-and-34da5efdaec8
