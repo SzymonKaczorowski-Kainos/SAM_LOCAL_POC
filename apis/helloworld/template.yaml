@@ -59,19 +59,5 @@ Resources:
           Properties:
             Path: /dynamotest
             Method: get
-  
-  DynamoDBTable:
-    Type: AWS::DynamoDB::Table
-    Properties: 
-      AttributeDefinitions: 
-        - AttributeName: id
-          AttributeType: S
-      KeySchema: 
-        - AttributeName: id
-          KeyType: HASH
-      ProvisionedThroughput: 
-        ReadCapacityUnits: 5
-        WriteCapacityUnits: 5
-      StreamSpecification:
-        StreamViewType: NEW_IMAGE
-      TableName: TEST
+
+            

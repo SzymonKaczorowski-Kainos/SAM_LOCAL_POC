@@ -3,8 +3,7 @@ import AWS from 'aws-sdk';
 import { v4 } from 'uuid';
 
 const options = {
-    region: 'localhost',
-    endpoint: 'http://localhost:8000',
+    endpoint: 'http://dynamodb:8000'
 };
 
 const documentClient = new AWS.DynamoDB.DocumentClient(options);
